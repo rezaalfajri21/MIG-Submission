@@ -344,7 +344,7 @@ const BASE_URL = 'https://mitramas-test.herokuapp.com'
     
     convert(){
       for (var k = 0; k < this.status.length; k++) {
-                    if (this.editedItem.status === this.status[k]) {
+                    if (this.editedItem.statusactually === this.status[k]) {
                         this.statusactually = this.statusId[k];
                     }
                 }
@@ -399,11 +399,11 @@ const BASE_URL = 'https://mitramas-test.herokuapp.com'
 
       save () {
         if (this.editedIndex > -1) {
-          this.updateCustomer()
+          this.updateCustomer();
         } else {
           this.addCustomer();
         }
-        this.close()
+        this.close();
       },
     },
   }
