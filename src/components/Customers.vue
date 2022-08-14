@@ -184,7 +184,7 @@
 
 <script>
 import axios from 'axios'
-const BASE_URL = 'http://mitramas-test.herokuapp.com'
+const BASE_URL = 'https://mitramas-test.herokuapp.com'
   export default {
     data: () => ({
       statusactually: '',
