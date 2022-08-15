@@ -51,47 +51,47 @@
                                                             ></v-switch>
                                                         </v-col>
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Singkatan
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
+                                                    <v-list-item-title class="pa-2 font-weight-bold mb-2">
                                                         MIG
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Alamat
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
+                                                    <v-list-item-title class="pa-2 font-weight-bold mb-2">
                                                         Jl. Raya Tebet
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Penanggung Jawab
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
+                                                    <v-list-item-title class="pa-2 font-weight-bold mb-2">
                                                         John Doe
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Tanggal PKP
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
+                                                    <v-list-item-title class="pa-2 font-weight-bold mb-2">
                                                         03 Maret 2021
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Email
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
-                                                        email
+                                                    <v-list-item-title style="color:green" class="pa-2 font-weight-bold mb-2 text-decoration-underline">
+                                                        <v-icon style="color:green" size="16">mdi-email-outline</v-icon> mig@mitrasolusi.group
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         No Telp
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
-                                                        021
+                                                   <v-list-item-title style="color:green" class="pa-2 font-weight-bold mb-2 text-decoration-underline">
+                                                        <v-icon style="color:green" size="16">mdi-phone-outline</v-icon> 021-5678-1234
                                                     </v-list-item-title>
-                                                    <v-list-item-subtitle>
+                                                    <v-list-item-subtitle class="pa-2">
                                                         Situs Web
                                                     </v-list-item-subtitle>
-                                                    <v-list-item-title class="font-weight-bold mb-2">
-                                                        mitramas.com
+                                                    <v-list-item-title style="color:green" class="pa-2 font-weight-bold mb-2 text-decoration-underline">
+                                                        <v-icon style="color:green" size="16">mdi-web</v-icon> mig@mitrasolusi.group
                                                     </v-list-item-title>
                                                 </v-list-item-content>
                                             </div>
@@ -107,73 +107,79 @@
                             <v-col cols="12" sm="12">
                                 <v-hover v-slot="{ hover }" open-delay="200">
                                     <v-card :elevation="hover ? 16 : 2">
-                                        <v-row>
-                                            <v-col>
-                                                Lokasi
-                                            </v-col>
-                                            <v-col>
-                                                Lihat Semua
-                                            </v-col>
-                                        </v-row>
-                                        <v-row>
-                                            <v-col>
-                                                <v-card elevation="2" color="green">
-                                                <v-list-item three-line>
-                                                    <v-list-item-content>
-                                                        <v-col cols="3" sm="3">
-                                                        <div style="text-align:left">
-                                                            <v-icon size="30" color="white" >mdi-home-silo-outline</v-icon>
-                                                        </div>
-                                                        </v-col>
-                                                        <v-col cols="9" sm="9" style="text-align:right">
-                                                        <v-list-item-title class="headline mb-1 ">
-                                                            20
-                                                        </v-list-item-title>
-                                                        <v-list-item-subtitle >Induk</v-list-item-subtitle>
-                                                        </v-col>
-                                                    </v-list-item-content>
-                                                    </v-list-item>
-                                                </v-card>
-                                            </v-col>
-                                            <v-col>
-                                                <v-card color="green">
+                                        <v-list-item-content>
+                                            <v-list-item-title>
+                                                <v-row class="pa-2">
+                                                    <v-col class="font-weight-bold mb-2">
+                                                        Lokasi
+                                                    </v-col>
+                                                    <v-col style="text-align:right">
+                                                        <v-text style="color:green">Lihat Semua</v-text>
+                                                    </v-col>
+                                                </v-row>
+                                            </v-list-item-title>
+                                        </v-list-item-content>
+                                        <v-list-item-content class="pa-2">
+                                            <v-row>
+                                                <v-col>
+                                                    <v-card elevation="2" color="green darken-1">
                                                     <v-list-item three-line>
-                                                    <v-list-item-content>
-                                                        <v-col cols="3" sm="3">
-                                                        <div style="text-align:left">
-                                                            <v-icon size="30" color="white" >mdi-wrench-outline</v-icon>
-                                                        </div>
-                                                        </v-col>
-                                                        <v-col cols="9" sm="9" style="text-align:right">
-                                                        <v-list-item-title class="headline mb-1 ">
-                                                            3
-                                                        </v-list-item-title>
-                                                        <v-list-item-subtitle >Sub Lokasi Level</v-list-item-subtitle>
-                                                        </v-col>
-                                                    </v-list-item-content>
-                                                    </v-list-item>
-                                                </v-card>
-                                            </v-col>
-                                            <v-col>
-                                                <v-card color="green">
-                                                <v-list-item three-line>
-                                                    <v-list-item-content>
-                                                        <v-col cols="3" sm="3">
-                                                        <div style="text-align:left">
-                                                            <v-icon size="30" color="white" >mdi-wrench-outline</v-icon>
-                                                        </div>
-                                                        </v-col>
-                                                        <v-col cols="9" sm="9" style="text-align:right">
-                                                        <v-list-item-title class="headline mb-1 ">
-                                                            3
-                                                        </v-list-item-title>
-                                                        <v-list-item-subtitle >Sub Lokasi Level</v-list-item-subtitle>
-                                                        </v-col>
-                                                    </v-list-item-content>
-                                                    </v-list-item>
-                                                </v-card>
-                                            </v-col>
-                                        </v-row>
+                                                        <v-list-item-content>
+                                                            <v-col cols="3" sm="3">
+                                                            <div style="text-align:left">
+                                                                <v-icon size="30" color="white" >mdi-home-silo-outline</v-icon>
+                                                            </div>
+                                                            </v-col>
+                                                            <v-col cols="9" sm="9" style="text-align:right">
+                                                            <v-list-item-title class="headline mb-1 ">
+                                                                20
+                                                            </v-list-item-title>
+                                                            <v-list-item-subtitle >Induk</v-list-item-subtitle>
+                                                            </v-col>
+                                                        </v-list-item-content>
+                                                        </v-list-item>
+                                                    </v-card>
+                                                </v-col>
+                                                <v-col>
+                                                    <v-card color="green lighten-1">
+                                                        <v-list-item three-line>
+                                                        <v-list-item-content>
+                                                            <v-col cols="3" sm="3">
+                                                            <div style="text-align:left">
+                                                                <v-icon size="30" color="white" >mdi-wrench-outline</v-icon>
+                                                            </div>
+                                                            </v-col>
+                                                            <v-col cols="9" sm="9" style="text-align:right">
+                                                            <v-list-item-title class="headline mb-1 ">
+                                                                3
+                                                            </v-list-item-title>
+                                                            <v-list-item-subtitle >Sub Lokasi Level</v-list-item-subtitle>
+                                                            </v-col>
+                                                        </v-list-item-content>
+                                                        </v-list-item>
+                                                    </v-card>
+                                                </v-col>
+                                                <v-col>
+                                                    <v-card color="green lighten-2">
+                                                    <v-list-item three-line>
+                                                        <v-list-item-content>
+                                                            <v-col cols="3" sm="3">
+                                                            <div style="text-align:left">
+                                                                <v-icon size="30" color="white" >mdi-warehouse</v-icon>
+                                                            </div>
+                                                            </v-col>
+                                                            <v-col cols="9" sm="9" style="text-align:right">
+                                                            <v-list-item-title class="headline mb-1 ">
+                                                                3
+                                                            </v-list-item-title>
+                                                            <v-list-item-subtitle >Sub Lokasi Level</v-list-item-subtitle>
+                                                            </v-col>
+                                                        </v-list-item-content>
+                                                        </v-list-item>
+                                                    </v-card>
+                                                </v-col>
+                                            </v-row>
+                                        </v-list-item-content>
                                     </v-card>
                                 </v-hover>
                             </v-col>
@@ -184,15 +190,15 @@
                                     <v-col>
                                         <v-hover v-slot="{ hover }" open-delay="200">
                                             <v-card :elevation="hover ? 16 : 2">
-                                                <v-row>
+                                                <v-row class="pa-4">
                                                     <v-col>
-                                                        <v-text>Akun Bank</v-text>
+                                                        <v-text class="font-weight-bold mb-2">Akun Bank</v-text>
                                                     </v-col>
                                                     <v-col>
                                                         <v-btn>Tambah Akun Bank</v-btn>
                                                     </v-col>
                                                 </v-row>
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col cols="12" sm="4">
                                                         <v-img sizes="10%" src="../assets/bank1.png"></v-img>
                                                     </v-col>
@@ -211,7 +217,7 @@
                                                         </v-btn>
                                                     </v-col>
                                                 </v-row>
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col cols="12" sm="4">
                                                         <v-img sizes="10%" src="../assets/bank2.png"></v-img>
                                                     </v-col>
@@ -234,19 +240,19 @@
                                         </v-hover>
                                     </v-col>
                                 </v-row>
-                                <v-row>
+                                <v-row class="pt-2">
                                     <v-col>
                                         <v-hover v-slot="{ hover }" open-delay="200">
                                             <v-card :elevation="hover ? 16 : 2">
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col>
-                                                        <v-text>Relasi</v-text>
+                                                        <v-text class="font-weight-bold mb-2">Relasi</v-text>
                                                     </v-col>
-                                                    <v-col  style="text-align:right">
-                                                        <v-text>Lihat Semua</v-text>
+                                                    <v-col style="text-align:right">
+                                                        <v-text style="color:green">Lihat Semua</v-text>
                                                     </v-col>
                                                 </v-row>
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col cols="12" sm="1">
                                                         <v-icon>mdi-share-variant-outline</v-icon>
                                                     </v-col>
@@ -255,7 +261,7 @@
                                                         <v-row>Memiliki</v-row>
                                                     </v-col>
                                                 </v-row>
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col cols="12" sm="1">
                                                         <v-icon>mdi-share-variant-outline</v-icon>
                                                     </v-col>
@@ -264,7 +270,7 @@
                                                         <v-row>Menggunakan</v-row>
                                                     </v-col>
                                                 </v-row>
-                                                <v-row>
+                                                <v-row class="pa-2">
                                                     <v-col cols="12" sm="1">
                                                         <v-icon>mdi-share-variant-outline</v-icon>
                                                     </v-col>
@@ -280,31 +286,34 @@
                             </v-col>
                             <v-col cols="12" sm="6">
                                 <v-hover v-slot="{ hover }" open-delay="200">
-                                    <v-card :elevation="hover ? 16 : 2">
-                                        <v-text>Aktivitas</v-text>
-                                        <br> <br>
+                                    <v-card class="pa-2" :elevation="hover ? 16 : 2">
+                                        <v-text class="pa-2 font-weight-bold mb-2">Aktivitas</v-text>
                                         <v-list-item>
                                             <v-list-item-content>
-                                                <v-list-item-title>
-                                                    Yusron bar saja menambahkan lokasi baru Kantor Cabang Jagakarsa
-                                                </v-list-item-title>
-                                                <v-list-item-subtitle>
-                                                    Hari ini, 06:00
-                                                </v-list-item-subtitle>
-                                                <br>
-                                                <v-list-item-title>
-                                                    Bintang baru saja menghapus sublokasi KCP Tebet 4 dari induk Kantor Cabang Tebet
-                                                </v-list-item-title>
-                                                <v-list-item-subtitle>
-                                                    Kemarin, 17:32
-                                                </v-list-item-subtitle>
-                                                <br>
-                                                <v-list-item-title>
-                                                    Yusron melakukan perubahan profil pada induk Kantor Cabang Bekasi
-                                                </v-list-item-title>
-                                                <v-list-item-subtitle>
-                                                    Kemarin, 17:32
-                                                </v-list-item-subtitle>
+                                                <v-list class="pa-4">
+                                                    <v-list-item-title>
+                                                        Yusron bar saja menambahkan lokasi baru Kantor Cabang Jagakarsa
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle>
+                                                        Hari ini, 06:00
+                                                    </v-list-item-subtitle>
+                                                </v-list>
+                                                <v-list class="pa-4">
+                                                    <v-list-item-title>
+                                                        Bintang baru saja menghapus sublokasi KCP Tebet 4 dari induk Kantor Cabang Tebet
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle>
+                                                        Kemarin, 17:32
+                                                    </v-list-item-subtitle>
+                                                </v-list>
+                                                <v-list class="pa-4">
+                                                     <v-list-item-title>
+                                                        Yusron melakukan perubahan profil pada induk Kantor Cabang Bekasi
+                                                    </v-list-item-title>
+                                                    <v-list-item-subtitle>
+                                                        Kemarin, 17:32
+                                                    </v-list-item-subtitle>
+                                                </v-list>
                                             </v-list-item-content>
                                         </v-list-item>
                                     </v-card>
